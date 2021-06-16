@@ -2,6 +2,7 @@
 void print();
 int main(){
 	printf("Hello World, awesome worlds");
+	printf("This is new change");
 	print();
 }
 
