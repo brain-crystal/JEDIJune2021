@@ -1,15 +1,17 @@
+
 #include<stdio.h>
-void print();
+void greeting();
+void helloWorlds();
+void greeting(){
+
+}
 int main(){
-	printf("Hello World, awesome worlds");
-<<<<<<< HEAD
-	printf("This is new change");
-=======
-	printf("Learn new things in life");
->>>>>>> f3d8d111ab8a45bc01c9d2c7520e353ad98cc6ea
-	print();
+	helloWorld();
 }
 
-void print(){
-	printf("Helloo I am Ayushi");
+void greeting(){
+	printf("Good Moringin");
+}
+void helloWorld(){
+	printf("Helloo ");
 }
