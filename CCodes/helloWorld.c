@@ -1,12 +1,16 @@
-#include<stdio.h>
-void print();
-int main(){
-	printf("Hello World, awesome worlds");
-<<<<<<< HEAD
-	printf("This is new change");
-=======
-	printf("Learn new things in life");
->>>>>>> f3d8d111ab8a45bc01c9d2c7520e353ad98cc6ea
+#include <stdio.h>
+
+void greeting(char name[]);
+
+int main() {
+        char name[] = "Alia Bhat"
+        greeting(name);
+}
+
+void greeting(char name[]) {
+        printf("Hey, Where was you?.. %s", name);
+}
+greeting(char name[]);
 	print();
 }
 
